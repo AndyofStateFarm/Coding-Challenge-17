@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+// U08282838
+
+import React from 'react';
+import FancyText from './FancyText';
+import TaskGenerator from './TaskGenerator';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <header className="App-header">
+        <FancyText title text="Task Management App" />
       </header>
+      <TaskGenerator />
+      <footer className="App-footer">
+        <FancyText text="© 2024 Task Management App, Andrew Bloodworth" />
+      </footer>
     </div>
   );
-}
+};
 
 export default App;
