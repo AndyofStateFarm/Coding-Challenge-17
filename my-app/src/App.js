@@ -2,18 +2,18 @@
 
 import React from 'react';
 import FancyText from './FancyText';
-import TaskGenerator from './TaskGenerator';
+import TaskGenerator from './TaskGenerator.js';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-        <header className="App-header">
+        <h1>
         <FancyText title text="Task Management App" />
-      </header>
+      </h1>
       <TaskGenerator />
-      <footer className="App-footer">
-        <FancyText text="© 2024 Task Management App, Andrew Bloodworth" />
+      <footer className="footer">
+        <p>© 2024 Task Management App, Andrew Bloodworth</p>
       </footer>
     </div>
   );

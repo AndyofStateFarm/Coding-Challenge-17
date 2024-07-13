@@ -4,8 +4,15 @@
     color: steelblue;
 }
 
-.regular {
+.main {
     font-size: 18px;
     font-weight: bold;
+    color: black;
+}
+
+.motivate {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
     color: slateblue;
 }

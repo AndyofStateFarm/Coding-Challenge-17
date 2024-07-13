@@ -3,7 +3,7 @@ import './FancyText.css';
 
 const FancyText = ({ title, text }) => {
     return (
-        <div className={title ? 'title' : 'main'}>
+        <div className={title ? 'title' : 'motivate'}>
             {text}
         </div>
     );
